@@ -1,5 +1,5 @@
 
-git clone https://git.lede-project.org/source.git
+git clone -b chaos_calmer https://github.com/openwrt/openwrt.git
 cd source
 
 ./scripts/feeds update
