@@ -1,6 +1,6 @@
 
-Immagine generic x86 per emulazione configurazione
-==================================================
+OpenWRT generic x86
+===================
 
 Download sorgenti
 ````
