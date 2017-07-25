@@ -2,8 +2,11 @@
 Immagine generic x86 per emulazione configurazione
 ==================================================
 
+Download sorgenti
+````
 git clone -b chaos_calmer https://github.com/openwrt/openwrt.git
 cd source
+````
 
 Installazione software
 ````bash
@@ -31,7 +34,7 @@ convert img to vdi to run it in Vbox
 VBoxManage convertdd  openwrt-15.05.1-x86-generic-combined-ext4.img openwrt-15.05.1-x86-generic-combined-ext4.vdi
 ````
 
-# packages
+Packages
 ````
 arptables_0.0.4-1_x86.ipk
 base-files_157.2-r49389_x86.ipk
