@@ -14,7 +14,7 @@ cd source
 ./scripts/feeds install micropython sshfs nano socat luci-app-mwan3 luci-proto-vpnc luci-proto-openconnect strongswan-full
 
 # printer server
-./scripts/feeds install p910nd luci-app-p910nd
+./scripts/feeds install p910nd luci-app-p910nd luci-app-qos htop
 
 #make menuconfig
 cat my_x86_diffconfig > .config
